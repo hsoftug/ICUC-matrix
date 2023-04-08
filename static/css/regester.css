@@ -1,0 +1,75 @@
+body{
+    background-color: seagreen;
+    font-family: 'roboto', sans-serif;
+}
+
+.singup-box{
+    width: 360px;
+    height: 620px;
+    margin:auto;
+    background-image: url(../img/backg1.jpg);
+    border-radius: 3px;
+}
+ 
+h2{
+    text-align: center;
+    padding-top: 15px;
+    text-transform: capitalize;
+}
+
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+     border: 1px solid grey;
+     border-radius: 6px;
+     outline: none;
+}
+
+input[type="button"]{
+    width: 320px;
+    height: 36px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 20px;
+}
+
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.par2{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: -10px;
+    text-transform: capitalize;
+}
+
+.par2 a{
+    color: #49c1a2;
+}
+
+.media{
+    margin-left: 70%;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
